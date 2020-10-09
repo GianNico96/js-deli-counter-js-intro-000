@@ -10,6 +10,6 @@ var nowServing = katzDeliLine => {
      mostrar.shift();
      return `Atendiendo ${mostrar}.`;
   }else {
-     return `¡No hay nadie esperando a ser atendido!!!`;
+     return "There is nobody waiting to be served!";
   }
 }
