@@ -4,7 +4,7 @@ function takeANumber(katzDeliLine, name)
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
 }
 
-var nowServing (katzDeliLine) => {
+var nowServing = katzDeliLine => {
   if (katzDeliLine.length > 0) {
      var mostrar = katzDeliLine[0];
      mostrar.shift();
